@@ -1,0 +1,13 @@
+<template>
+    
+    <lightning-card>
+        <ul class="slds-list_horizontal slds-scrollable_x">
+            
+            <template if:true={filteredMovies} for:each={filteredMovies} for:item="movie">
+                <c-movie-card movie={movie} key={movie.id}></c-movie-card>
+            </template>
+       
+        </ul>
+    </lightning-card>
+
+</template>

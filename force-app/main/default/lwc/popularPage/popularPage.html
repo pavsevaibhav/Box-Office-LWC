@@ -1,0 +1,19 @@
+<template>
+    <div class="container">
+        <h2 style="color: black; font-size: 1.8rem"><b>What's Popular</b></h2>
+        <div class="input">
+            <input type="button" value="Movies"  class={toggleClassMovie} onclick={handleClick}> 
+            <input type="button" value="TV Series" class={toggleClassTV} onclick={handleClick}> 
+        </div>
+        
+            <!--input type="button" value="This Week" class="search-btn" onclick={handleClick}-->
+       
+    </div>
+    <div class="spinner">
+        <template if:true={isLoading}>
+             <lightning-spinner alternative-text="Loading" variant="brand" size="large">
+             </lightning-spinner>
+        </template>
+    </div>
+            <c-horizontal-page filtered-movies={moviesData}></c-horizontal-page>
+</template>

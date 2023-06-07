@@ -1,0 +1,40 @@
+.navbarStyle{
+    background-color: #3382c4;
+    max-width: 100%;
+    width: 100vw;
+    align-content: space-between;
+    
+}
+
+.wrapper{
+    position: relative;
+    background-image: url(https://img.freepik.com/free-photo/movie-background-collage_23-2149876028.jpg?w=826&t=st=1684398460~exp=1684399060~hmac=9653116b7fc1931ff346ee57178c973aa7adf32f879a2a2dae1881a5187624a7);
+}
+
+.input{
+    width: 100%;
+    border: 3px solid #fff;
+    background: #fff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    outline: none;
+    font-size: 18px;
+    color: black;
+    
+}
+
+.search-btn{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    cursor: pointer;
+    color: #fff;
+    background: #1ed5a9;
+    border: 0px;
+    width: 120px;
+    height: 60px;
+    border-radius: 50px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}

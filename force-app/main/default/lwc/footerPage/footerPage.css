@@ -1,0 +1,19 @@
+.navbarStyle{
+    background-color: #032541;
+    max-width: 100%;
+    width: 100vw;
+    align-content: space-between;
+    
+}
+
+.footer-detail{
+    color: aliceblue;
+    font-size: 1vw;
+    padding-left: 30px; 
+    margin-top: 30px
+}
+
+.user-label{
+    color: aliceblue;
+    font-size: 2vw;
+}

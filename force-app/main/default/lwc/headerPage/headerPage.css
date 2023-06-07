@@ -1,0 +1,25 @@
+.navbarStyle{
+    background-color: #032541;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.itemListStyle{
+    padding: 5px;
+    font-size: 1.2vw;
+    color: #fdf4f4;
+    
+}
+
+.add-icn{
+    --sds-c-icon-color-foreground-default:#f9f9f9;
+    margin: 5px;
+    padding: 5px;
+}
+
+.image-resp{
+    width:100%;
+    max-width: 35px;
+    height:auto;
+    margin-right: 2vw;
+}

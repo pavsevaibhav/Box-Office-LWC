@@ -1,0 +1,23 @@
+<template>
+<div class="main-container header-margin">
+    <div class="spinner">
+        <template if:true={isLoading}>
+             <lightning-spinner alternative-text="Loading" variant="brand" size="large">
+             </lightning-spinner>
+        </template>
+    </div>
+    <div>
+            <!--Header page-->
+            <c-header-page app-logo={appLogo} menu-items={menuItems}></c-header-page>
+            <!--welcome page-->
+            <c-welcome-search-page></c-welcome-search-page>
+            <!--trending page-->
+            <c-trending-page></c-trending-page>
+            <!--popular page-->
+            <c-popular-page></c-popular-page>
+            <!--footer page-->
+            <c-footer-page app-logo={appLogo} user="Vaibhav"></c-footer-page>
+    </div>
+    
+</div>
+</template>
